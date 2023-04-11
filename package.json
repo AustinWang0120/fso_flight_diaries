@@ -6,8 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc",
-    "dev": "ts-node-dev index.tsx",
-    "lint": "eslint --ext .ts ."
+    "start": "node build/index.js",
+    "dev": "ts-node-dev src/index.ts",
+    "lint": "eslint --ext .ts .",
+    "lint:init": "eslint --init"
   },
   "author": "Austin Wang",
   "license": "ISC",
