@@ -12,7 +12,7 @@ app.get("/ping", (_req, res) => {
 
 app.use("/api/diaries", diaryRouter)
 
-const PORT = 3001
+const PORT = 3002
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
 })
